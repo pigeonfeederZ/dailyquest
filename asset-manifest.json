@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dayquest/static/css/main.02b8f140.css",
+    "main.js": "/dayquest/static/js/main.8fc71d3f.js",
+    "static/js/787.d0233ca9.chunk.js": "/dayquest/static/js/787.d0233ca9.chunk.js",
+    "static/media/reward-point-10.PNG": "/dayquest/static/media/reward-point-10.d6ad9a20be626a77db8b.PNG",
+    "index.html": "/dayquest/index.html",
+    "main.02b8f140.css.map": "/dayquest/static/css/main.02b8f140.css.map",
+    "main.8fc71d3f.js.map": "/dayquest/static/js/main.8fc71d3f.js.map",
+    "787.d0233ca9.chunk.js.map": "/dayquest/static/js/787.d0233ca9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02b8f140.css",
+    "static/js/main.8fc71d3f.js"
+  ]
+}
