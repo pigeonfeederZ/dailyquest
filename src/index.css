@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,162 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}  */
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  /* color:#FFEEC4; */
+  color:#3f2810;
+  /* an AFK shadow effect */
+  /* text-shadow: -1px -2px #583D22, 2px 1px #583D22, 1px -2px #583D22, 2px -1px #583D22, 2px -2px 5px #583D22; */
+
 }
+h1 {
+  text-align: center;
+}
+.kanban-container {
+  max-width: 500px;
+  margin: 0 auto;
+  /* height: 98vh; */
+  padding-bottom: 5vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap:.2em;
+
+  /* background-color: #E1C079; */
+}
+.quest-title {
+  height: 8em;
+  /* background-color: #583D22; */
+  /* border-bottom: solid 2px #452919; */
+  text-shadow: none;
+  color:#452919;
+  background-color: #E9D5A2;
+  border-radius: 5px;
+}
+.main-progress-container {
+  /* background-color: #6a1010; */
+  border-radius: 5px;
+
+  background-color: #E9D5A2;
+  background-color: #452919;
+  min-height: 3em;
+  padding: .5em 0 .3em 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.clock {
+  background-color: #452919;
+  /* margin: 10px 2px ; */
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  white-space: pre;
+  color:#E9D5A2;
+
+  .clock-time {
+    color: #73f088;
+  }
+}
+
+.container{
+  /* background-color: #E9D5A2; */
+  margin-top: 15px;
+}
+.quest {
+  margin-bottom: 20px;
+  padding: 0;
+  /* background-color: #f2f2f2; */
+  background-color: #B8986F;
+  border-radius: 5px;
+  display: flex;
+  align-items: stretch;
+  column-gap: 1.5em;
+  flex-direction: row;
+}
+.quest h2 {
+  margin-top: 0;
+}
+.quest p {
+  margin-bottom: 5px;
+  font-size: large;
+}
+.quest .reward {
+  font-weight: bold;
+}
+.progress {
+  max-width: 88%;
+}
+.quest .progress {
+  flex-grow: 5;
+  align-self: stretch; /* makes its height 100% of its parent */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-bottom: 5px; */
+  margin-bottom: .5em;
+}
+.progress-bar {
+  height: 1em;
+  /* background-color: #b3e6ff; */
+  background-color: #583D22;
+  background-color: #452919;
+  border-radius: 5px;
+  border: solid 3px #8c6136;
+}
+.progress-bar-fill {
+  height: 100%;
+  /* background-color: #00bfff; */
+  background-color: #90DED0;
+  border-radius: 5px;
+}
+.progress-bar-decor-number {
+  float: left;
+  top: -2em;
+  position: relative;
+  right: -50%;
+  text-anchor: middle;
+
+}
+.progress-bar-decor-nodes {
+  float: left;
+  top: -1.4em;
+  position: relative;
+  right: 1.3em;
+  text-anchor: middle;
+}
+.quest .progress-bar-number {
+  color:#FFEEC4;
+  font-size: medium;      
+}
+.quest .claim-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quest .claim-button {
+  /* display: block; */
+  width: 5em;
+  /* height: 2em; */
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  margin:auto;
+  /* background-color: #00bfff; */
+  /* background-color: #452919; */
+  background-color: #E1C079;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+
