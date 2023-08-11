@@ -13,7 +13,7 @@ export const MainProgressBar = (props) => {
     // const percentage = props.progress / props.totalProgress * 100;
 
     return (
-        <div>
+        <div className="progress-container">
             {/* <img className="reward" src={reward10} alt="Reward Point"/> */}
             <div className="progress">
                 <div className="progress-bar">

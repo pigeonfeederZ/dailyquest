@@ -100,8 +100,8 @@ h1 {
 .quest .reward {
   font-weight: bold;
 }
-.progress {
-  max-width: 88%;
+.progress-container {
+  max-width: 85%;
 }
 .quest .progress {
   flex-grow: 5;
@@ -139,7 +139,7 @@ h1 {
   float: left;
   top: -1.4em;
   position: relative;
-  right: 1.3em;
+  /* right: 1.3em; */
   text-anchor: middle;
 }
 .quest .progress-bar-number {
