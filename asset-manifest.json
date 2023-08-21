@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/dayquest/static/css/main.329d5294.css",
-    "main.js": "/dayquest/static/js/main.79afd58e.js",
+    "main.css": "/dayquest/static/css/main.e984e2d1.css",
+    "main.js": "/dayquest/static/js/main.13256d00.js",
     "static/js/787.d0233ca9.chunk.js": "/dayquest/static/js/787.d0233ca9.chunk.js",
+    "static/media/reward-black-star-1.png": "/dayquest/static/media/reward-black-star-1.e289fab1424ff7c19b1d.png",
     "static/media/reward-point-10.PNG": "/dayquest/static/media/reward-point-10.d6ad9a20be626a77db8b.PNG",
     "index.html": "/dayquest/index.html",
-    "main.329d5294.css.map": "/dayquest/static/css/main.329d5294.css.map",
-    "main.79afd58e.js.map": "/dayquest/static/js/main.79afd58e.js.map",
+    "main.e984e2d1.css.map": "/dayquest/static/css/main.e984e2d1.css.map",
+    "main.13256d00.js.map": "/dayquest/static/js/main.13256d00.js.map",
     "787.d0233ca9.chunk.js.map": "/dayquest/static/js/787.d0233ca9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.329d5294.css",
-    "static/js/main.79afd58e.js"
+    "static/css/main.e984e2d1.css",
+    "static/js/main.13256d00.js"
   ]
 }
